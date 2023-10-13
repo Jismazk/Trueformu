@@ -6,10 +6,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Formulario</title>
 </head>
-<body>
-    <div class ="container bg-info border-black d-flex">
+<body class="d-flex justify-content-center align-items-center  row-gap-0">
+    <div class ="container bg-info border-black d-flex ">
         <h1 style="text-align: center;">Formulario</h1>
-        <div class="General_info bg-white">
+        <div class="General_info bg-white ">
                <h1>General information</h1> 
             <form >
               <select >
@@ -51,7 +51,7 @@
             
 
         </div>
-        <div class="contact_det bg-primary  ">
+        <div class="contact_det bg-danger-subtle   ">
                  <h1>contact details</h1>
                  <form>
                     <label >
@@ -62,11 +62,41 @@
                     </label>
                     <label >
                         <input type="text" placeholder="Zip code">
-                        
-                    </label><label ></label><label ></label><label ></label>
+                        <select >
+                            <option value="Titulo">Pucca</option>
+                            <option value="ingeniero">inge</option>
+                            <option value="doctor">doc</option>
+                            <option value="quimico">quimi</option>
+                          </select>
 
-                    
+                    </label>
+                    <label >
+                        
+                        <select >
+                            <option value="Titulo">Country</option>
+                            <option value="ingeniero">inge</option>
+                            <option value="doctor">doc</option>
+                            <option value="quimico">quimi</option>
+                          </select>
+
+                    </label>
+                    <label >
+                        
+                        <select >
+                            <option value="Titulo">lada</option>
+                            <option value="ingeniero">inge</option>
+                            <option value="doctor">doc</option>
+                            <option value="quimico">quimi</option>
+                          </select>
+                          <input type="text" placeholder="Phone number">
+
+                    </label>
+                    <label >
+                        <input type="text" placeholder="Email">
+
+                    </label>
                  </form>
+                 <input type="checkbox" class="text-white"> i do accept <a href="#">Terms and Conditions</a> of use
            
 
         </div>
